@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+- set_fact:
+  no_log: false
+  roles:
+    - role: renderqwerty.dgoss

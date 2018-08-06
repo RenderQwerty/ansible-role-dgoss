@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: "Yurii Fisakov"
+  description: "Ansible role for installing goss & dgoss wrapper"
+  license: "MIT"
+  min_ansible_version: 2.2
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - development
+    - system
+    - docker
+    - containers
+    - testing
+
+dependencies: []

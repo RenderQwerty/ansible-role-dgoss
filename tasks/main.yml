@@ -1,0 +1,14 @@
+---
+# tasks file for renderqwerty.dgoss
+
+- name: Download and install goss
+  get_url:
+    url: "https://github.com/aelsabbahy/goss/releases/download/{{ version }}/goss-linux-{{ arch }}"
+    dest: "{{ dest }}/goss"
+    mode: 0555
+
+- name: Download and install dgoss wrapper
+  get_url:
+    url: "https://raw.githubusercontent.com/aelsabbahy/goss/{{ version }}/extras/dgoss/dgoss"
+    dest: "{{ dest }}/dgoss"
+    mode: 0755

@@ -1,0 +1,5 @@
+---
+# defaults file for renderqwerty.dgoss
+version: v0.3.6
+arch: amd64
+dest: /usr/local/bin/
